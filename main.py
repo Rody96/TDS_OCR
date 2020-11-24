@@ -23,5 +23,16 @@ pathLabel.pack()
 pathTextBox = tk.Text(window,height = 2)
 pathTextBox.pack()
 
+readImButton = tk.Button(window, text='Lire image')
+readImButton.pack()
+
+resultLabel = tk.Label(window,text = "Données:")
+resultLabel.pack()
+
+resultTextBox = tk.Text(window,height = 6)
+resultTextBox.pack()
+
+
+
 
 window.mainloop()
